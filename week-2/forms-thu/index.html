@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+  </head>
+  <body>
+    <h3>Here is a form</h3>
+    <!-- <img src="" alt="" /> -->
+    <p>Today we practise how to use forms.</p>
+    <!-- 
+    <form action="thank-you.html" method="get">
+      <input type="submit" value="get">
+    </form>
+
+
+    <form action="thank-you.html" method="post">
+      <input type="submit" value="post">
+    </form>
+
+    <form action="thank-you.html" method="dialog">
+      <input type="submit" value="dialog">
+    </form>
+ -->
+
+ <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  <p>Your browser doesn't support HTML5 audio. 
+     Here is a <a href="horse.mp3">link to the audio</a> instead.</p>
+</audio>
+
+<video poster="horse.png" controls>
+  <source src="horse.mp4" type="video/mp4">
+  <source src="horse.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. 
+  Here is a <a href="horse.mp4">link to the video</a> instead.</p>
+</video>
+
+    <form action="do_something.html" method="post">
+      <fieldset id="personal-info">
+        <legend>Personal Info</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required />
+      </fieldset>
+    </form>
+
+    <form action="date-picker">
+      <input type="datetime-local" />
+
+      <input type="color" />
+    </form>
+
+    <br />
+    <form action="thank-you.html" method="post">
+      <input type="text" />
+      <br />
+      <input type="radio" />
+      <br />
+      <input type="checkbox" />
+      <br />
+      <input type="submit" />
+      <br />
+      <input type="button" />
+      <br />
+
+      <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea
+      >
+
+      <fieldset>
+        <legend>Contact details</legend>
+
+        <label for="fname">First name</label>
+        <input type="text" id="fname" />
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment</legend>
+        <input type="radio" id="paypal" value="pp" name="payment" />
+        <label for="paypal">Paypal</label>
+        <input type="radio" id="twint" value="tw" name="payment" />
+        <label for="twint">Twint</label>
+      </fieldset>
+
+      <button>Submit</button>
+    </form>
+    <form action="thank-you.html" method="get"></form>
+  </body>
+</html>
