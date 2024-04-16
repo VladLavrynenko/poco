@@ -1,0 +1,5 @@
+
+
+    .gridbox { 
+        grid-template-areas: 'area-a area-b area-c area-d';
+    }

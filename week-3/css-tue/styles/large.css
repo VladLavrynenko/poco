@@ -1,0 +1,7 @@
+
+@media only screen and (min-width: 1000px) {
+    .gridbox { 
+        grid-template-areas:   'area-a area-b area-c'
+                               'area-d area-d area-d';
+    }
+}
