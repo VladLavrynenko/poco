@@ -1,0 +1,29 @@
+Fortune teller
+Why pay a fortune teller when you can just program your fortune yourself?
+
+VARIABLES:
+=========
+let numberOfChildren;
+let partnerName;
+let geoLocation;
+let jobTitle;
+
+Functions:
+=========
+
+getFortune() - will print the result of the fortune.
+Perhaps some functions for checking the input.
+
+
+Output:
+====== 
+'You will be a ${jobTitle} in ${geoLocation}, and married to ${partnerName} with ${numberOfChildren} kids.'
+
+
+BEGIN:
+=====
+We start with input our form.
+It will have some necassary fields to fill.
+After filling it in -> click the button, getFortune()
+
+
