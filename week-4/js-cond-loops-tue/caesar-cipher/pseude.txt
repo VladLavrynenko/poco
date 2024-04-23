@@ -1,0 +1,21 @@
+let message = "ABCD"
+let encodeMessage = "BCDE"
+
+let decodeMessage = "ABCD"
+
+function(msg, shiftKey)
+
+shiftKey = 1;
+
+A+1 = B
+
+There are 2 ranges:
++ A-Z: 65-90
++ a-z: 97-122
+
+if the numberOfTheChar more than 90 or 122, we need to return to start:
+90 + 1 => 65
+90 + 2 => 66
+90 + 19 => 65 + 18
+
+
