@@ -1,13 +1,12 @@
+// Counting the number of characters
+// Create a program in JavaScript that 
+// prompts for an input string and displays output that shows 
+// the input string and the number of characters the string contains.
 
-function sayHello() {
-    let userName = "";
+let input = prompt("Enter any input and we will count its quantity. (q - to quit)");
+let length = input.length;
 
-    while(userName != "q") {
-        userName = prompt("Enter your name, SVP. (q - to quit)");      
-        let msg = `Hey ${userName}`;
-        alert(msg);
-    }
+while (input != "q") {
+    alert(input + ": " + input.length);
+    input = prompt("Enter any input and we will count its quantity.");
 }
-
-
-sayHello();
