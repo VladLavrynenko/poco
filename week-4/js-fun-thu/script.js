@@ -1,12 +1,18 @@
-// Counting the number of characters
-// Create a program in JavaScript that 
-// prompts for an input string and displays output that shows 
-// the input string and the number of characters the string contains.
+// Printing quotes
+// Create a program that prompts for a quote and an author. 
+// Display the quotation and author as shown here:
+// [Author] says, "[Quote]" (Replace [Author] and [Quote] with the actual values
 
-let input = prompt("Enter any input and we will count its quantity. (q - to quit)");
-let length = input.length;
+showQuote();
 
-while (input != "q") {
-    alert(input + ": " + input.length);
-    input = prompt("Enter any input and we will count its quantity.");
+function showQuote() {
+    let authorName = prompt("Enter the author. (q - quit)");
+    let quoteInput = "";
+
+    while (authorName != "q") {
+        quoteInput = prompt("Enter the quote of the author.")
+        let qouteOutput = `${authorName} says, \"${quoteInput}\"`;
+        alert(qouteOutput);
+        authorName = prompt("Enter the author. (q - quit)");
+    }
 }
