@@ -1,0 +1,23 @@
+What TODO:
+
+=======
+Inputs:
+
+1. a birthdate, in which type of the prompt (calendar, input numbers, ...)
+2. ...
+
+=======
+Outputs:
+
+1. a birthdate
+2. ...
+
+========================
+Constraints, edge cases:
+
+1. A birthdate should be less than Today Date.
+2. your age is too big, ...
+3. your age is too low, ...
+4. you have X-years left to retirement, ...
+
+errors, warnings - ?

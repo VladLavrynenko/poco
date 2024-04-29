@@ -1,0 +1,15 @@
+BEGIN:
+
+1. Enter the birthdate.
+2. Check the input date. Call checkBirthdate().
+IF TRUE: call calculateRetirement()
+ELSE FALSE: msg - incorrect input, "You're not born yet."
+
+
+checkBirthdate(birthDate) { 
+    birthDate <= todayDay
+}
+
+calculateRetirement(){
+    
+}
