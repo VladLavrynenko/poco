@@ -1,15 +1,22 @@
 BEGIN:
 
-1. Enter the birthdate.
-2. Check the input date. Call checkBirthdate().
-IF TRUE: call calculateRetirement()
-ELSE FALSE: msg - incorrect input, "You're not born yet."
+What is your age? 25
+At what age would you like to retire? 65
+You have 40 years left until you can retire.
+It's 2020, so you can retire in 2060.
 
-
-checkBirthdate(birthDate) { 
-    birthDate <= todayDay
+getBirthdate() { 
+    input = [0,0]
+    input[0] = prompt("Enteryour birthday")
+    input[1] = prompt("Enteryour...")
 }
 
-calculateRetirement(){
-    
+showRetirement(input){
+    leftYears = input[1] - input[0]
+    "You have $leftYears years left until you can retire."
+    It's $todayYear, so you can retire in ${todayYear + leftYears}.
 }
+
+check input:
+- checkAge()
+- checkYear()
